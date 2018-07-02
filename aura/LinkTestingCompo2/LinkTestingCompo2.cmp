@@ -1,0 +1,10 @@
+<aura:component >
+    <lightning:tabset aura:id="Tabset" selectedTabId="tabId" variant="scoped">
+	<lightning:tab aura:id="Tab" title="Tab" id="tabId">
+                    <aura:set attribute="label">
+                        <div aura:id="setId" class="blue"><ui:outputText aura:id="textId" value="Hello!" /></div>
+                    </aura:set>
+                    <c:LinkTestingCompo1 aura:id="oppTab"  />
+                </lightning:tab>
+        </lightning:tabset>
+</aura:component>

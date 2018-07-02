@@ -1,0 +1,5 @@
+<aura:component >
+	<div class="editLinkDiv" aura:id="editLink">
+        <a class="slds-input__icon slds-icon-text-default editLinkAnchor" href ="https://login.salesforce.com/"> TestLink </a></div>
+  
+</aura:component>
